@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.monitor.osjelanji.activity_avisolegal"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Condiciones de uso"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textColorHint="@android:color/background_dark"
+                android:textColorLink="@color/colorAccent"
+                android:textSize="24sp"
+                tools:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AlergiApp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La informacion y datos que reune AlergiApp sobre productos de alimentacion y sus alergenos se realiza en base a la informacion suministrado por el fabricante en sus embases, con lo que cualquier modificacion que no este contemplada en esto, no esta reflejada en la base de datos de AlergiApp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informacion de nuestra base de datos"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.01"
+                android:text="La informacion reflajada en la base de datos de AlergiApp, refleja los siguientes alergenos alimentarios:" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   1. CEREALES QUE CONTIENEN GLUTEN: Incluye el trigo (también el trigo espelta y el trigo khorasan), el centeno, la cebada, la avena o sus variedades híbridas y productos derivados. Se puede encontrar en alimentos elaborados con harina, masas, panes, tartas, levadura para hornear, cuscus, bulfur, pasta, pastelería, salsas, sopas, productos cárnicos, alimentos rebozados, etc. Debe declararse el cereal. Es voluntario indicar la presencia de gluten junto al nombre del cereal." />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   2. CRUSTÁCEOS Y PRODUCTOS A BASE DE CRUSTÁCEOS:  Cangrejos, langostas, gambas, langostinos, carabineros, cigalas, etc. Además se puede encontrar en cremas, salsas, platos preparados, etc." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   3. HUEVOS Y PRODUCTOS A BASE DE HUEVO:  Además de en el huevo y derivados (productos a base de huevo), se puede encontrar en tartas, algunos productos cárnicos, mayonesa, mousses, pasta, quiches, platos preparados, postres, alimentos rebozados, salsas, aliños para ensaladas, alimentos decorados con huevo, etc." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   4. PESCADO Y PRODUCTOS A BASE DE PESCADO:  Además de en el pescado y derivados (productos a base de pescado), se puede encontrar en salsas, pizzas, aliños para ensaladas, caldo en pastillas, etc." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   5. CACAHUETES Y PRODUCTOS A BASE DE CACAHUETES:  Además de en las semillas, pasta y aceites, se puede encontrar en galletas, chocolates, postres, salsas, etc." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   6. SOJA Y PRODUCTOS A BASE DE SOJA:  Además de en las semillas (habas), pastas, aceites y harinas, se puede encontrar en el tofu, postres, helados, productos cárnicos, salsas, productos para vegetarianos, etc." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   7. LECHE Y SUS DERIVADOS (INCLUIDA LA LACTOSA):  Además de en la leche y sus derivados como la mantequilla, queso, nata, leche en polvo, yogures, etc., se puede encontrar en croquetas, sopas, cremas, salsas, fiambres, postres, helados, etc." />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   8. FRUTOS DE CÁSCARA Y PRODUCTOS DERIVADOS:  Almendras, avellanas, nueces, anacardos, pacanas, nueces de Brasil, pistachos, nueces de macadamia. Se pueden encontrar en panes, galletas, postres, helados, mazapán, salsas o aceites, etc. Se debe indicar el nombre del fruto de cáscara presente en el alimento, no siendo necesario utilizar el nombre en latín de cada uno de ellos." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   9. APIO Y PRODUCTOS DERIVADOS:  Incluye los tallos, hojas, semillas y raíces. Además se puede encontrar en condimentos, ensaladas, algunos productos cárnicos, sopas, cremas, salsas, etc." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   10. MOSTAZA Y PRODUCTOS DERIVADOS:  Además de en semillas, en polvo o en forma líquida, se puede encontrar en algunos panes, currys, marinados, productos cárnicos, aliños, salsas, sopas, etc." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   11. GRANOS DE SÉSAMO Y PRODUCTOS A BASE DE GRANO DE SESÁMO:  Además de en las semillas (granos), pastas (tahine o pasta de sésamo), aceites y harinas, se puede encontrar en panes, colines, grisines, humus, etc." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   12. DIÓXIDO DE AZUFRE Y SULFITOS:  Se pueden utilizar como conservantes en crustáceos, frutas desecadas, productos cárnicos, refrescos, vegetales, zumos, encurtidos, vino, cerveza etc." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   13. ALTRAMUCES Y PRODUCTOS A BASE DE ALTRAMUCES:  Además de en las semillas y harinas, se puede encontrar en algunos tipos de pan, pasteles, etc." />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   14. MOLUSCOS Y PRODUCTOS A BASE DE MOLUSCOS:  Mejillones, almejas, caracoles, ostras, bígaros, chirlas, berberechos, pulpo, calamar, etc. Además se puede encontrar en cremas, salsas, platos preparados, etc." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consentimiento"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los usuarios acuerdan introducir datos reales a la hora de cumplimentar su perfil y da su consentimiento, mientras que no comunique lo contrario. Los datos facilitados por el usuario, no serán cedidos ni vendidos a terceros" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aviso"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El resultado de las busquedas es solo infirmacion para el usuario, este siempre tienen que verificar el contenido del producto, dado que la busqueda puede contener errore, tanto de transcipcion de datos como de informacion en el empaquetado, solo es informacion de referencia.
+El uso de la aplicación AlergiApp implica la aceptacion de estor terminos y sus consentimientos.
+" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

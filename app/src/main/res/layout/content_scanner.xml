@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background= "@drawable/degradado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.monitor.osjelanji.activity_scanner"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/supermercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/supermercado"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/supermercado"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="19dp"
+        android:layout_toLeftOf="@+id/supermercado"
+        android:layout_toStartOf="@+id/supermercado"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/eleclerc" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/alcampo"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignLeft="@+id/scanner"
+        android:layout_alignStart="@+id/scanner" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/aldi"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignRight="@+id/scanner"
+        android:layout_alignEnd="@+id/scanner"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/imageButton5"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/carrefour" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignRight="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/coviran" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton7"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/dia" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton8"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/eroski"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton9"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/lidl" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton8"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_alignRight="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8"
+        android:layout_below="@+id/imageButton8"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/mercadona" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton11"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9"
+        android:background="@android:color/white"
+        android:contentDescription="@string/supermercado"
+        app:srcCompat="@drawable/spar" />
+
+    <TextView
+        android:id="@+id/scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="ESCANEA TU PRODUCTO"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/scanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/scanner"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/scanner" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+    <item android:id="@+id/perfil"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Mis alergias"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/scannermenu"
+        android:title="Scanner"
+        android:orderInCategory="3"
+        android:showAsAction="never"/>
+    <item android:id="@+id/cerrarsesion"
+        android:title="Cerrar sesión"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+    <item android:id="@+id/avisolegal"
+        android:title="Aviso Legal"
+        android:orderInCategory="5"
+        android:showAsAction="never" />
+
+</menu>

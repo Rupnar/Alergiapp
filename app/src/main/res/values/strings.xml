@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AlergiApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_usuario">activity_usuario</string>
+    <string name="title_activity_scanner">activity_scanner</string>
+    <string name="title_activity_alergias">activity_alergias</string>
+    <string name="title_activity_avisolegal">activity_avisolegal</string>
+    <string name="supermercado">ELIGE TU SUPERMERCADO:</string>
+    <string name="scanner">scanner</string>
+    <string name="title_activity_menu_lateral">menuLateral</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_si_puedes">activity_siPuedes</string>
+    <string name="title_activity_no_puedes">noPuedes</string>
+</resources>

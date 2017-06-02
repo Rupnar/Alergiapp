@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/degradado"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.monitor.osjelanji.MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/entrar"
+        android:layout_alignStart="@+id/entrar"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/borde"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:selectAllOnFocus="false"
+        android:textColorLink="@android:color/holo_purple" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/usuario"
+        android:layout_alignStart="@+id/usuario"
+        android:layout_centerVertical="true"
+        android:background="@drawable/borde"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColorLink="@android:color/holo_purple" />
+
+    <CheckBox
+        android:id="@+id/recordar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contraseña"
+        android:layout_alignStart="@+id/contraseña"
+        android:layout_below="@+id/contraseña"
+        android:layout_marginTop="36dp"
+        android:text="Recordar contraseña"
+        android:textColorLink="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recordar"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:background="#576df7"
+        android:onClick="entrar"
+        android:text="ENTRAR"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/alta"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/entrar"
+        android:layout_alignBottom="@+id/entrar"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:background="#576df7"
+        android:onClick="alta"
+        android:text="ALTA NUEVA"
+        android:textColor="@color/zxing_status_text"
+        android:textColorLink="@color/zxing_status_text"
+        android:textStyle="bold" />
+
+</RelativeLayout>
